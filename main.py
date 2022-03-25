@@ -12,9 +12,9 @@ def check(card_num):
 
         if card_num[0] == '4':  # Checking first number to prove that payment system is Visa
             payment_system += 'Visa'
-        elif card_num[0] == '5':  # Checking first and second number to prove that payment system is Visa
+        elif card_num[0] == '5':  # Checking first number to prove that payment system is MasterCard
             payment_system += 'MasterCard'
-        elif card_num[0] == '2':
+        elif card_num[0] == '2':  # Checking first number to prove that payment system is MIR
             payment_system += 'MIR'
         else:
             payment_system = 'I can not recognize your payment system'
